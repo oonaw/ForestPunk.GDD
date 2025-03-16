@@ -10,6 +10,10 @@ Sisältö
 > ##### 2.2 Aikataulutus
 > ##### 2.3 Riskit
 #### 3. Pelikäsikirjoitus
+> ##### 3.2 Tarina
+> ##### 3.3 Hahmot
+> ##### 3.4 Maailma/Tasot
+> ##### 3.5 Kerättävät esineet
 #### 4. Pelidesign (Gameplay)
 > ##### 4.2 Eteneminen
 > ##### 4.3 Core-loopit
@@ -63,6 +67,17 @@ Sisältö
 > ##### - Missä vaiheessa testaukset?
 > ##### - esim. Versioiden buildit maanantain palaveriin mennessä, testaus toteutettuna torstain palaveriin mennessä
 
+### 2.3. Riskit
+> ##### - Joku tiimistä lähtee
+> ##### - Aikataulusta myöhästytään
+> ##### - Aikataulu on epäselvä
+> ##### - Tietokone hajoaa
+> ##### - Versionhallinnassa on virhe, ja viimeisin backup on liian vanha
+> ##### - Osaaminen ei riitä johonkin ominaisuuteen
+> ##### - Liian laaja scope
+> ##### - Sairastumisia tai muita pitkäaikaisia poissaoloja
+> ##### - Kommunikaatio ei toimi
+
 ## Sprintti
 
 
@@ -81,13 +96,13 @@ Sisältö
 > ##### 7. Grafiikat valmiina​ ja viimeisten ominaisuuksien lisäys  
 
 
-> ##### 8. Beta + testaus​ Kaikki ominaisuudet, toiminnallisuudet ja animaatiot pelissä​ <ins><sup>Deadline 15.04</sup></ins>
+> ##### 8. Beta + testaus​ Kaikki ominaisuudet, toiminnallisuudet ja animaatiot pelissä​ 
 
 
-> ##### 9. Postprocessing & Fixlist, Release + testaus + viimeiset korjaukset​ Fixlist mahdollisimman tyhjäksi​ <ins><sup>Pelien testaus koululla 17.04</sup></ins>
+> ##### 9. Postprocessing & Fixlist, Release + testaus + viimeiset korjaukset​ Fixlist mahdollisimman tyhjäksi​ 
 
 
-> ##### 10. Purku​, Projektin esittely​ <ins><sup>Purku koululla 29.04</sup></ins>
+> ##### 10. Purku​, Projektin esittely​ 
 
 ## Proto-Alpha-Beta-Release-Purku
 
@@ -100,17 +115,6 @@ Sisältö
 > ##### *Release Deadline 22.04*
 
 > ##### Peliprojektin purku 29.04
-
-## 2.3. Riskit
-> ##### - Joku tiimistä lähtee
-> ##### - Aikataulusta myöhästytään
-> ##### - Aikataulu on epäselvä
-> ##### - Tietokone hajoaa
-> ##### - Versionhallinnassa on virhe, ja viimeisin backup on liian vanha
-> ##### - Osaaminen ei riitä johonkin ominaisuuteen
-> ##### - Liian laaja scope
-> ##### - Sairastumisia tai muita pitkäaikaisia poissaoloja
-> ##### - Kommunikaatio ei toimi
 
 ## 3. Pelikäsikirjoitus
 #### Tarina
@@ -128,20 +132,12 @@ Sisältö
 ## 4. Pelidesign (Gameplay)
 #### Pelimekaniikat 
 > ##### - ”Siten että ohjelmoija pystyy ohjelmoimaan designin perusteella, artisti pystyy toteuttamaan artin.” 
-> ##### - Laserin heijastuminen kristalleista. 
-> ##### - Arkkujen aukeaminen ja kristallin palan kerääminen. 
-> ##### - Arkkujen lukot sisältävät sudokumaisen puzzlen, joka pitää selvittää, ennen kuin kristallinpalan näistä 
-saa. 
-> ##### - Rikkinäisten kristallien korjaaminen, kun pelaaja on vuorovaikutuksessa sen kanssa. Pelaajalla pitää 
-tällöin olla yksi kristallin pala. 
-> ##### - Häkin avautuminen laserin osoittaessa sen lukkoon. 
-> ##### - Pelaaja kuolee osuessaan laseriin. 
-> ##### - Laserin säteen osuessa kristalliin, siinä on pieni viivästys ennen kuin kristalli heijastaa sen. 
-> ##### - Ovet suljetuille alueille aukeavat laserin osuessa niiden lukkoon.
+> ##### - Pelaaja kuolee healthin tippuessa nolliin.
 
 #### Pelin fysiikat 
-> ##### - Laserin heijastuminen kristalleista. 
-> ##### - Kristallin kääntäminen Q ja E näppäimistä. 
+> ##### - Pelaajan liikkuminen
+> ##### - Pelaajan ampuminen [?] näppäimestä.
+> ##### - Pelaajan melee [?] näppäimestä.
 > ##### - Kameran kääntäminen hiiren oikea näppäin pohjassa, hiirtä liikuttamalla. 
 > ##### - Hiiren rullalla zoomaus. 
 
@@ -200,3 +196,101 @@ tällöin olla yksi kristallin pala.
 
 > ##### - Sydämet
 > ##### - *Kolikot?*
+
+## 5. Visuaalisuus ja käytettävyys
+> ##### - Moodboard x 
+> ##### - Storyboard 
+> ##### - Konseptikuvitukset x 
+> ##### - Käyttöliittymä sekä pelin visuaalisuus 
+> ##### - Näkymät 
+> ##### - Eri laatutasoiset kehitysvaiheet 
+> ##### - Lopullinen laatu 
+
+
+## 5.2 Hahmot
+> ##### - Pelaaja-hahmo 
+> ##### - Pelastettavat eläin hahmot – noin 3 kpl. 
+> ##### - Mahdolliset vihollishahmot
+
+
+## 5.3 Ympäristöt 
+> ##### - Rakennukset (Rauniot, muurin palasia, kuluneita rakennuksia) 
+> ##### - Häkit 
+> ##### - Luonto-assetit (pensaat, puut, ruohikko, kukat, kiviä, kallioita yms.) 
+> ##### - Tekstuurit maa-alustalle (ruohikko, polku/tie)
+
+
+## 5.4 Tarvittavat core - assetit 
+> ##### - Arkut 
+> ##### - Kristallit 
+
+
+## 5.5 Käyttöliittymä  
+> ##### - Lopulliset + konseptit, napit, tausta yms.
+
+## 6. Tekninen   
+> ##### - Pelimoottori: 
+> ##### - ~~Tietokanta:~~
+> ##### - Tiedostojen hallinta: Github & Discord 
+> ##### - Tallennussuunnitelma: 
+
+
+## 6.2 Arkkitehtuuri 
+
+#### CameraController 
+> ##### - Kamera seuraa pelaajaa 
+
+#### Player HealthSystem
+> ##### - Pelaajan healthin vähentyminen
+> ##### -
+
+#### Health Collectibles
+> ##### - Pelaajan healthin kasvaminen
+> ##### - HealthBarin päivittyminen
+
+#### Player Melee
+> ##### -
+> ##### -
+
+#### Player Shooting
+> ##### -
+> ##### -
+
+#### PlayerController 
+> ##### - Pelaajan liikkuminen
+> ##### - Pelaajan hyppääminen
+> ##### - Pelaajan liitäminen
+> ##### - Pelaajan wallclinging
+
+#### EnemyController
+> ##### -
+> ##### -
+> ##### -
+
+#### BossController
+> ##### -
+> ##### -
+
+## 6.3 SFX 
+
+#### Musiikit 
+> ##### - Taustamusiikki
+
+#### Ääniefektit 
+> ##### - Keräys 
+> ##### - Kävely 
+> ##### - Hiiren klikkaus menuissa 
+> ##### - Pelaajan iskut
+> ##### - Vihollisten iskut
+
+#### Tekninen määritys, formaatti, koko (rajoitukset), laaturajoitukset
+> ##### -
+
+
+## 6.4 Esteettömyys 
+> ##### - Esim. punavihersokeuden huomiointi 
+> ##### - Selkokielisyys, selkeys 
+> ##### - Pelin kontrollit (extra: pelaaja saa valita keybindit). 
+
+## 6.5 Käyttöliittymä
+> ##### - Rautalankamallit käyttöliittymästä
