@@ -89,27 +89,28 @@ Sisältö
 
 > ##### 10. Purku​, Projektin esittely​ <ins><sup>Purku koululla 29.04</sup></ins>
 
+## Proto-Alpha-Beta-Release-Purku
 
-## Prototyyppi Deadline 21.03
+> ##### *Prototyyppi Deadline 21.03*
 
-## Alpha Deadline 04.04
+> ##### *Alpha Deadline 04.04*
 
-## Beta Deadline 15.04
+> ##### Beta Deadline 15.04
 
-## Release Deadline 22.04
+> ##### *Release Deadline 22.04*
 
-## Peliprojektin purku koululla 29.04
+> ##### Peliprojektin purku 29.04
 
-2.3. Riskit
-- Joku tiimistä lähtee
-- Aikataulusta myöhästytään
-- Aikataulu on epäselvä
-- Tietokone hajoaa
-- Versionhallinnassa on virhe, ja viimeisin backup on liian vanha
-- Osaaminen ei riitä johonkin ominaisuuteen
-- Liian laaja scope
-- Sairastumisia tai muita pitkäaikaisia poissaoloja
-- Kommunikaatio ei toimi
+## 2.3. Riskit
+> ##### - Joku tiimistä lähtee
+> ##### - Aikataulusta myöhästytään
+> ##### - Aikataulu on epäselvä
+> ##### - Tietokone hajoaa
+> ##### - Versionhallinnassa on virhe, ja viimeisin backup on liian vanha
+> ##### - Osaaminen ei riitä johonkin ominaisuuteen
+> ##### - Liian laaja scope
+> ##### - Sairastumisia tai muita pitkäaikaisia poissaoloja
+> ##### - Kommunikaatio ei toimi
 
 ## 3. Pelikäsikirjoitus
 #### Tarina
@@ -124,3 +125,78 @@ Sisältö
 > ##### - Kolikot
 > ##### - Sydämet
 
+## 4. Pelidesign (Gameplay)
+#### Pelimekaniikat 
+> ##### - ”Siten että ohjelmoija pystyy ohjelmoimaan designin perusteella, artisti pystyy toteuttamaan artin.” 
+> ##### - Laserin heijastuminen kristalleista. 
+> ##### - Arkkujen aukeaminen ja kristallin palan kerääminen. 
+> ##### - Arkkujen lukot sisältävät sudokumaisen puzzlen, joka pitää selvittää, ennen kuin kristallinpalan näistä 
+saa. 
+> ##### - Rikkinäisten kristallien korjaaminen, kun pelaaja on vuorovaikutuksessa sen kanssa. Pelaajalla pitää 
+tällöin olla yksi kristallin pala. 
+> ##### - Häkin avautuminen laserin osoittaessa sen lukkoon. 
+> ##### - Pelaaja kuolee osuessaan laseriin. 
+> ##### - Laserin säteen osuessa kristalliin, siinä on pieni viivästys ennen kuin kristalli heijastaa sen. 
+> ##### - Ovet suljetuille alueille aukeavat laserin osuessa niiden lukkoon.
+
+#### Pelin fysiikat 
+> ##### - Laserin heijastuminen kristalleista. 
+> ##### - Kristallin kääntäminen Q ja E näppäimistä. 
+> ##### - Kameran kääntäminen hiiren oikea näppäin pohjassa, hiirtä liikuttamalla. 
+> ##### - Hiiren rullalla zoomaus. 
+
+## 4.2 Eteneminen
+
+#### Tavoite 
+> ##### - Päihittää viholliset ja boss pelin lopussa
+> ##### - *Kerätä matkalla kolikeita?*
+
+
+#### Esteet 
+> ##### - Erityyppisiä vihollisia
+> ##### - Ansoja tasoissa joista pelaaja ottaa vahinkoa
+
+
+#### Mitä pelaaja tekee pelissä? 
+> ##### - Etenee kentässä taistellen vihollisia vastaan päästäkseen etenemään.
+> ##### - Kerää itemeitä, health itemeitä ja *kolikoita?*
+
+
+#### Milloin peli tallentaa ja minkä osan? 
+> ##### - Tason lopussa tallennetaan kerätyt itemit
+
+## 4.3 Core-loopit
+
+#### Core-loop 1.
+> -
+#### Core-loop 2.
+> -
+#### Core-loop 3.
+> - 
+## 4.4 Liikkuminen ja toiminnot
+
+#### Millä eri tavoilla pelaaja liikkuu
+> ##### - WASD + nuolinäppäimet?
+
+
+#### Mitä toimintoja pelaajalla on?
+> ##### -
+
+## 4.5 Näkymät
+
+### Menut
+> ##### - StartMenu
+> ##### - PauseMenu
+> ##### - SettingsMenu
+ ##### Credit page
+ ##### Tasot
+ ##### DeathScreen
+ ##### WinScreen
+
+## 4.6 Tasot
+ > #### - Steampunk ja metsäteema.
+ 
+## 4.7 Kerättävät esineet
+
+> ##### - Sydämet
+> ##### - *Kolikot?*
