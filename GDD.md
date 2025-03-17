@@ -1,108 +1,110 @@
 # Forest Punk
 
-Sisältö
-#### 1. Konseptikuvaus
-> ##### 1.2 Peli-idea
+Table of contents
+#### 1. Game Concept
+> ##### 1.2 Game-idea
 > ##### 1.3 Genre
-> ##### 1.4 Tyyli & Tyylireferenssejä
-> ##### 1.5 Konseptitaidetta
-#### 2. Projektinhallinta
-> ##### 2.2 Aikataulutus
-> ##### 2.3 Riskit
-#### 3. Pelikäsikirjoitus
-> ##### 3.2 Tarina
-> ##### 3.3 Hahmot
-> ##### 3.4 Maailma/Tasot
-> ##### 3.5 Kerättävät esineet
-#### 4. Pelidesign (Gameplay)
-> ##### 4.2 Eteneminen
-> ##### 4.3 Core-loopit
-> ##### 4.4 Liikkuminen ja toiminnot
-> ##### 4.5 Näkymät
-> ##### 4.6 Tasot
-> ##### 4.7 Kerättävät esineet
-#### 5. Visuaalisuus ja käytettävyys
-> ##### 5.2 Hahmot
-> ##### 5.3 Ympäristöt
-> ##### 5.4 Tarvittavat core - assetit
-> ##### 5.5 Käyttöliittymä
-#### 6. Tekninen
-> ##### 6.2 Arkkitehtuuri
+> ##### 1.4 Style & References
+> ##### 1.5 Concept Art
+#### 2. Project Management
+> ##### 2.2 Monetization
+> ##### 2.3 Scheduling
+> ##### 2.4 Risks
+#### 3. Game Script
+> ##### 3.2 Story
+> ##### 3.3 Characters
+> ##### 3.4 Game World/Levels
+> ##### 3.5 Collectables
+#### 4. Gamedesign (Gameplay)
+> ##### 4.2 Progression
+> ##### 4.3 Core-loops
+> ##### 4.4 Movement and Actions
+> ##### 4.5 Game View
+> ##### 4.6 Levels
+> ##### 4.7 Collectable Items
+#### 5. Visuality & Usability
+> ##### 5.2 Characters
+> ##### 5.3 Environments
+> ##### 5.4 Necessary Core - Assets
+> ##### 5.5 User Interface
+#### 6. Technical
+> ##### 6.2 Game Architecture
 > ##### 6.3 SFX
-> ##### 6.4 Esteettömyys
-> ##### 6.5 Käyttöliittymä
+> ##### 6.4 Accessibility
+> ##### 6.5 User Interface
 
-## 1. Konseptikuvaus
+## 1. Game Concept
 
-#### Peli-idea:
+#### Game-idea:
 
-> ##### Tähän kuvaus pelin ideasta
+> ##### The player is a rat who is hunting for the emperor, both are transferred from their own comic styled world to a completely different world.
+> ##### The rat has to fight different enemies in their hunt
 
 #### Genre:
 
 > ##### Action Platformer
 
-#### Tyyli:
+#### Art Style:
 
 > ##### Steampunk - 2D
 
-#### Tyylireferenssejä:
+#### Style references:
 
-> ##### Tähän kuvia pelin tyylireferensseistä
+> ##### Nine Sols, Hollow Knight, Rain World, Ori and the Blind Forest, Arcane, Subnautica, Old comic books
 
-#### Konsepti:
+#### Concept Art:
 
 > ##### Kuvia konseptitaiteesta
 
-## 2. Projektinhallinta
+## 2. Project Management
 > ##### Projektinhallinnassa käytetään Trelloa, GitHubia & Discordia. Kommunikaatiovälineenä toimii ryhmän oma Discord kanava.
 
-### 2.1 Monetisaatio
+### 2.2 Monetization
 
 > ##### Pelin markkinointisuunnitelma
 
-### 2.2 Aikataulutus
-> ##### - Päävaiheet
-> ##### - Yksityiskohtaiset taskit per osa-alue
-> ##### - Missä vaiheessa testaukset?
-> ##### - esim. Versioiden buildit maanantain palaveriin mennessä, testaus toteutettuna torstain palaveriin mennessä
+### 2.3 Scheduling
+> ##### - Main stages
+> ##### - Detailed tasks per subdivision
+> ##### - Game testing schedule
+> ##### - *esim. Versioiden buildit maanantain palaveriin mennessä, testaus toteutettuna torstain palaveriin mennessä*
 
-### 2.3. Riskit
-> ##### - Joku tiimistä lähtee
-> ##### - Aikataulusta myöhästytään
-> ##### - Aikataulu on epäselvä
-> ##### - Tietokone hajoaa
-> ##### - Versionhallinnassa on virhe, ja viimeisin backup on liian vanha
-> ##### - Osaaminen ei riitä johonkin ominaisuuteen
-> ##### - Liian laaja scope
-> ##### - Sairastumisia tai muita pitkäaikaisia poissaoloja
-> ##### - Kommunikaatio ei toimi
+### 2.4 Risks
+> ##### - Someone quits the team
+> ##### - Late from schedule
+> ##### - Schedule is unclear
+> ##### - PC breaks down
+> ##### - There is an error in version control and the latest backup is too old
+> ##### - Not enough competence for something
+> ##### - Scope too large
+> ##### - Team members getting sick or burned out 
+> ##### - Communication doesn't work
 
-## Sprintti
-
-
-> ##### 1-3. Suunnittelua, peli-idea (esittely) aikataulu, GDD, työnjako, Core-Extended-Wishes
+## Sprint
 
 
-> ##### 4. Prototyyppi + testaus​ Core toiminnallisuuksia, menut ja placeholder grafiikoita 
+> ##### 1-3. Planning and designing, game-idea (presentation) schedule, GDD, distribution of tasks, Core-Extended-Wishes
 
 
-> ##### 5. Korjauksia testauksen pohjalta 
+> ##### 4. Prototype + testing Core functionalities, menus & placeholder graphics
 
 
-> ##### 6. Alpha + testaus​ Core ominaisuudet, ainakin lopulliset hahmografiikat ja kerättävät esineet
+> ##### 5. Fixlist based on the prototype testing 
 
 
-> ##### 7. Grafiikat valmiina​ ja viimeisten ominaisuuksien lisäys  
+> ##### 6. Alpha + testing Core functionalities, atleast final character graphics & collectable items
 
 
-> ##### 8. Beta + testaus​ Kaikki ominaisuudet, toiminnallisuudet ja animaatiot pelissä​ 
+> ##### 7. Graphics ready, adding final features
 
 
-> ##### 9. Postprocessing & Fixlist, Release + testaus + viimeiset korjaukset​ Fixlist mahdollisimman tyhjäksi​ 
+> ##### 8. Beta + testing,​ all features, functionalities and animation in the game build
 
 
-> ##### 10. Purku​, Projektin esittely​ 
+> ##### 9. Postprocessing & Fixlist, Release + testing + final repairs, Fixlist as empty as possible
+
+
+> ##### 10. Purku​, Presentation day.
 
 ## Proto-Alpha-Beta-Release-Purku
 
@@ -116,25 +118,26 @@ Sisältö
 
 > ##### Peliprojektin purku 29.04
 
-## 3. Pelikäsikirjoitus
-#### Tarina
-> ##### - Delfiini
-#### Hahmot
+## 3. Game Script
+#### Story
+> ##### The desert rat is hunting for the emperor, both transferred from their own world to a completely different one.
+> ##### The rat has to fight different enemies in their hunt.
+#### Characters
 > ##### - Pelaaja
 > ##### - Boss
-#### Maailma/Tasot
-> ##### - Kuvitteellinen maailma (fantasia)
-> ##### - Leveleiden lukumäärä:
-#### Kerättävät esineet
-> ##### - Kolikot
-> ##### - Sydämet
+#### World/Levels
+> ##### - Fictional Worlds with (old comics, steampunk) and (fantasy, forest, painterly) styles mixed together as the game progresses.
+> ##### - Number of Levels:
+#### Collectable items
+> ##### - Hearts
+> ##### - *Coins?*
 
-## 4. Pelidesign (Gameplay)
-#### Pelimekaniikat 
+## 4. Game Design (Gameplay)
+#### Game Mechanics
 > ##### - ”Siten että ohjelmoija pystyy ohjelmoimaan designin perusteella, artisti pystyy toteuttamaan artin.” 
 > ##### - Pelaaja kuolee healthin tippuessa nolliin.
 
-#### Pelin fysiikat 
+#### Game Physics
 > ##### - Pelaajan liikkuminen
 > ##### - Pelaajan ampuminen [?] näppäimestä.
 > ##### - Pelaajan melee [?] näppäimestä.
@@ -168,14 +171,15 @@ Sisältö
 #### Core-loop 2.
 > -
 #### Core-loop 3.
-> - 
-## 4.4 Liikkuminen ja toiminnot
+> -
 
-#### Millä eri tavoilla pelaaja liikkuu
+## 4.4 Player movement & Actions
+
+#### Player movement
 > ##### - WASD + nuolinäppäimet?
 
 
-#### Mitä toimintoja pelaajalla on?
+#### What actions does the player have?
 > ##### -
 
 ## 4.5 Näkymät
@@ -190,42 +194,45 @@ Sisältö
  ##### WinScreen
 
 ## 4.6 Tasot
- > #### - Steampunk ja metsäteema.
+> ##### - Comic styled world inspired by old comics with steampunk elements.
+> ##### - Fantasy forest with a paintetrly art style.
+> ##### - These two styles get mixed troughout the game.
  
 ## 4.7 Kerättävät esineet
 
-> ##### - Sydämet
-> ##### - *Kolikot?*
+> ##### - Hearts
 
-## 5. Visuaalisuus ja käytettävyys
+## 5. Visuality & Usability
 > ##### - Moodboard x 
 > ##### - Storyboard 
-> ##### - Konseptikuvitukset x 
-> ##### - Käyttöliittymä sekä pelin visuaalisuus 
-> ##### - Näkymät 
-> ##### - Eri laatutasoiset kehitysvaiheet 
-> ##### - Lopullinen laatu 
+> ##### - Concept Art x 
+> ##### - User interface & Game Visuals
+> ##### - Game views
+> ##### - Different quality development stages
+> ##### - Final quality
 
 
 ## 5.2 Hahmot
-> ##### - Pelaaja-hahmo 
-> ##### - Pelastettavat eläin hahmot – noin 3 kpl. 
-> ##### - Mahdolliset vihollishahmot
+> ##### - Player-character (Desert rat)
+> ##### - Minions of the emperor
+> ##### - The Emperor
 
 
-## 5.3 Ympäristöt 
+## 5.3 Environments
 > ##### - Rakennukset (Rauniot, muurin palasia, kuluneita rakennuksia) 
 > ##### - Häkit 
 > ##### - Luonto-assetit (pensaat, puut, ruohikko, kukat, kiviä, kallioita yms.) 
 > ##### - Tekstuurit maa-alustalle (ruohikko, polku/tie)
 
 
-## 5.4 Tarvittavat core - assetit 
-> ##### - Arkut 
-> ##### - Kristallit 
+## 5.4 Necessary Core - Assets
+> ##### - Player
+> ##### - Enemies
+> ##### - Hearts
+> ##### - Backgrounds
 
 
-## 5.5 Käyttöliittymä  
+## 5.5 User interface 
 > ##### - Lopulliset + konseptit, napit, tausta yms.
 
 ## 6. Tekninen   
