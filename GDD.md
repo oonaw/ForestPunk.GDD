@@ -67,7 +67,7 @@ Table of contents
 > ##### - Main stages
 > ##### - Detailed tasks per subdivision
 > ##### - Game testing schedule
-> ##### - *esim. Versioiden buildit maanantain palaveriin mennessä, testaus toteutettuna torstain palaveriin mennessä*
+> ##### - *e.g. Version builds ready by the next meeting, testing done by the following one.*
 
 ### 2.4 Risks
 > ##### - Someone quits the team
@@ -108,63 +108,60 @@ Table of contents
 
 ## Proto-Alpha-Beta-Release-Purku
 
-> ##### *Prototyyppi Deadline 21.03*
+> ##### ~~Prototyyppi Deadline 21.03~~
 
-> ##### *Alpha Deadline 04.04*
+> ##### ~~Alpha Deadline 04.04~~
 
 > ##### Beta Deadline 15.04
 
-> ##### *Release Deadline 22.04*
+> ##### ~~Release Deadline 22.04~~
 
-> ##### Peliprojektin purku 29.04
+> ##### Game Project Disassembly (purku) 29.04
 
 ## 3. Game Script
+
 #### Story
 > ##### The desert rat is hunting for the emperor, both transferred from their own world to a completely different one.
 > ##### The rat has to fight different enemies in their hunt.
+
 #### Characters
-> ##### - Pelaaja
-> ##### - Boss
+> ##### - Player (rat)
+> ##### - Boss (emperor)
+
 #### World/Levels
 > ##### - Fictional Worlds with (old comics, steampunk) and (fantasy, forest, painterly) styles mixed together as the game progresses.
 > ##### - Number of Levels:
+
 #### Collectable items
 > ##### - Hearts
-> ##### - *Coins?*
 
 ## 4. Game Design (Gameplay)
 #### Game Mechanics
-> ##### - ”Siten että ohjelmoija pystyy ohjelmoimaan designin perusteella, artisti pystyy toteuttamaan artin.” 
-> ##### - Pelaaja kuolee healthin tippuessa nolliin.
+> ##### - 
 
 #### Game Physics
-> ##### - Pelaajan liikkuminen
-> ##### - Pelaajan ampuminen [?] näppäimestä.
-> ##### - Pelaajan melee [?] näppäimestä.
-> ##### - Kameran kääntäminen hiiren oikea näppäin pohjassa, hiirtä liikuttamalla. 
-> ##### - Hiiren rullalla zoomaus. 
+> ##### -
 
-## 4.2 Eteneminen
+## 4.2 Progression
 
-#### Tavoite 
-> ##### - Päihittää viholliset ja boss pelin lopussa
-> ##### - *Kerätä matkalla kolikeita?*
+#### The goal
+> ##### - Defeat enemies and the boss at the end of the game
 
 
-#### Esteet 
-> ##### - Erityyppisiä vihollisia
-> ##### - Ansoja tasoissa joista pelaaja ottaa vahinkoa
+#### Obstacles
+> ##### - Three different types of smaller enemies before boss fight
+> ##### - ~~Traps along the way that do damage~~
 
 
-#### Mitä pelaaja tekee pelissä? 
-> ##### - Etenee kentässä taistellen vihollisia vastaan päästäkseen etenemään.
-> ##### - Kerää itemeitä, health itemeitä ja *kolikoita?*
+#### What does the player do in the game?
+> ##### - Progresses in the game whilst fighting enemies
+> ##### - Collects health items to restore health
 
 
-#### Milloin peli tallentaa ja minkä osan? 
-> ##### - Tason lopussa tallennetaan kerätyt itemit
+#### When does the game save and which part?
+> ##### - 
 
-## 4.3 Core-loopit
+## 4.3 Core-loops
 
 #### Core-loop 1.
 > -
@@ -176,30 +173,36 @@ Table of contents
 ## 4.4 Player movement & Actions
 
 #### Player movement
-> ##### - WASD + nuolinäppäimet?
+> ##### - WASD + arrow keys?
+> ##### - Basic movement
+> ##### - Jump & Doublejump
+> ##### - Wallclinging
+> ##### - Dash
 
 
 #### What actions does the player have?
-> ##### -
+> ##### - Melee attack
+> ##### - Shooting
+> ##### - Collecting health items
 
-## 4.5 Näkymät
+## 4.5 Game Views
 
-### Menut
+### Menus
+
 > ##### - StartMenu
 > ##### - PauseMenu
 > ##### - SettingsMenu
- ##### Credit page
- ##### Tasot
- ##### DeathScreen
- ##### WinScreen
+> ##### - Credit page
+> ##### - Levels
+> ##### - DeathScreen
+> ##### - WinScreen
 
-## 4.6 Tasot
+## 4.6 Levels
 > ##### - Comic styled world inspired by old comics with steampunk elements.
 > ##### - Fantasy forest with a paintetrly art style.
 > ##### - These two styles get mixed troughout the game.
  
-## 4.7 Kerättävät esineet
-
+## 4.7 Collectable items
 > ##### - Hearts
 
 ## 5. Visuality & Usability
@@ -212,7 +215,7 @@ Table of contents
 > ##### - Final quality
 
 
-## 5.2 Hahmot
+## 5.2 Characters
 > ##### - Player-character (Desert rat)
 > ##### - Minions of the emperor
 > ##### - The Emperor
@@ -233,71 +236,71 @@ Table of contents
 
 
 ## 5.5 User interface 
-> ##### - Lopulliset + konseptit, napit, tausta yms.
+> ##### - Final product + concepts, buttons, background etc.
 
-## 6. Tekninen   
-> ##### - Pelimoottori: 
-> ##### - ~~Tietokanta:~~
-> ##### - Tiedostojen hallinta: Github & Discord 
-> ##### - Tallennussuunnitelma: 
+## 6. Technical   
+> ##### - Game Engine
+> ##### - ~~Database:~~
+> ##### - File management: Github & Discord 
+> ##### - Storage plan: 
 
 
 ## 6.2 Arkkitehtuuri 
 
 #### CameraController 
-> ##### - Kamera seuraa pelaajaa 
+> ##### - Camera follows the player
 
 #### Player HealthSystem
-> ##### - Pelaajan healthin vähentyminen
-> ##### -
+> ##### - Keeps track of player health
 
 #### Health Collectibles
-> ##### - Pelaajan healthin kasvaminen
-> ##### - HealthBarin päivittyminen
+> ##### - Add into players health upon collection
 
-#### Player Melee
-> ##### -
+#### PlayerCombat
+
+ #### Player Melee
 > ##### -
 
 #### Player Shooting
 > ##### -
-> ##### -
 
 #### PlayerController 
-> ##### - Pelaajan liikkuminen
-> ##### - Pelaajan hyppääminen
-> ##### - Pelaajan liitäminen
-> ##### - Pelaajan wallclinging
+> ##### - Player movement
 
 #### EnemyController
-> ##### -
-> ##### -
 > ##### -
 
 #### BossController
 > ##### -
-> ##### -
 
 ## 6.3 SFX 
 
-#### Musiikit 
-> ##### - Taustamusiikki
+#### Music
+> ##### - Background music
 
-#### Ääniefektit 
-> ##### - Keräys 
-> ##### - Kävely 
-> ##### - Hiiren klikkaus menuissa 
-> ##### - Pelaajan iskut
-> ##### - Vihollisten iskut
+#### Sound effects
+> ##### - Collecting
+> ##### - Walking
+> ##### - Mouse click in menus
+> ##### - Player attacks
+> ##### - Enemy attacks
 
-#### Tekninen määritys, formaatti, koko (rajoitukset), laaturajoitukset
+#### Technical specifications, formating, size (limitations), quality limitations
 > ##### -
 
 
-## 6.4 Esteettömyys 
-> ##### - Esim. punavihersokeuden huomiointi 
-> ##### - Selkokielisyys, selkeys 
-> ##### - Pelin kontrollit (extra: pelaaja saa valita keybindit). 
+## 6.4 Accessibility
+> ##### - ~~Red-Green color blindness~~
+> ##### - Player controls (extra: player gets to choose the keybindings). 
 
-## 6.5 Käyttöliittymä
-> ##### - Rautalankamallit käyttöliittymästä
+## 6.5 User Interface
+> ##### - Wire models of the UI
+
+> ##### - Steampunk styled menus
+> ##### - StartMenu, (a separate scene with buttons for starting the game, credits & settings)
+> ##### - PauseMenu, (an UI panel that opens when a button is pressed?)
+> ##### - SettingsMenu, (an UI panel that opens when a button is pressed?)
+> ##### - Credit page, (an UI panel that opens when a button is pressed?)
+> ##### - Levels, (one scene or multiple?)
+> ##### - DeathScreen, (separate scene or a UI panel?)
+> ##### - WinScreen, (separate scene or a UI panel?)
