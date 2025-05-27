@@ -54,14 +54,23 @@ Table of contents
 
 #### Concept Art:
 
-> ##### Kuvia konseptitaiteesta
+> ##### www.figma.com/design/H7EBimbynf7OWy2pCMuQ0Q/Ryhmä-5-FORESTPUNK
+> ##### Link to Figma containing concept art for the game.
 
 ## 2. Project Management
 > ##### Projektinhallinnassa käytetään Trelloa, GitHubia & Discordia. Kommunikaatiovälineenä toimii ryhmän oma Discord kanava.
 
 ### 2.2 Monetization
 
-> ##### Pelin markkinointisuunnitelma
+> ##### Marketing plan:
+> ##### Target audience: 15-35 years old, fans of retro and indie games, platformers like super mario.
+> ##### Platforms: Windows-build, itch.io
+> ##### USPs: Unique art style mixing different styles, cartoonish steampunk/futuristic and painterly. Custom made music and SFX, diverse player mechanics and animations.
+> ##### Potentional DLC, Forest Punk 2.
+> ##### Sending free version of the game to streamers who play and test indie games.
+> ##### Teaser trailer of the game that can be uploaded to YouTube and other social media platforms.
+> ##### Launch in Twitter, Instagram, Tiktok, Discord, Reddit containing material of progress made during game development, comments and experiences of team members shared before, during and after the project.
+> ##### 
 
 ### 2.3 Scheduling
 > ##### - Main stages
@@ -82,39 +91,7 @@ Table of contents
 
 ## Sprint
 
-
-> ##### 1-3. Planning and designing, game-idea (presentation) schedule, GDD, distribution of tasks, Core-Extended-Wishes
-
-
-> ##### 4. Prototype + testing Core functionalities, menus & placeholder graphics
-
-
-> ##### 5. Fixlist based on the prototype testing 
-
-
-> ##### 6. Alpha + testing Core functionalities, atleast final character graphics & collectable items
-
-
-> ##### 7. Graphics ready, adding final features
-
-
-> ##### 8. Beta + testing,​ all features, functionalities and animation in the game build
-
-
-> ##### 9. Postprocessing & Fixlist, Release + testing + final repairs, Fixlist as empty as possible
-
-
-> ##### 10. Purku​, Presentation day.
-
-## Proto-Alpha-Beta-Release-Purku
-
-> ##### ~~Prototyyppi Deadline 21.03~~
-
-> ##### ~~Alpha Deadline 04.04~~
-
 > ##### Beta Deadline 15.04
-
-> ##### ~~Release Deadline 22.04~~
 
 > ##### Game Project Disassembly (purku) 29.04
 
@@ -130,7 +107,7 @@ Table of contents
 
 #### World/Levels
 > ##### - Fictional Worlds with (old comics, steampunk) and (fantasy, forest, painterly) styles mixed together as the game progresses.
-> ##### - Number of Levels:
+> ##### - Number of Levels: 3
 
 #### Collectable items
 > ##### - Hearts
@@ -149,31 +126,22 @@ Table of contents
 
 
 #### Obstacles
-> ##### - Three different types of smaller enemies before boss fight
-> ##### - ~~Traps along the way that do damage~~
+> ##### - Three different types of enemies
+> ##### - Traps and obstacles that do damage
 
 
 #### What does the player do in the game?
-> ##### - Progresses in the game whilst fighting enemies
-> ##### - Collects health items to restore health
-
-
-#### When does the game save and which part?
 > ##### - 
 
 ## 4.3 Core-loops
 
 #### Core-loop 1.
-> -
-#### Core-loop 2.
-> -
-#### Core-loop 3.
-> -
+> - Fight enemies, collect health items, die - repeat
 
 ## 4.4 Player movement & Actions
 
 #### Player movement
-> ##### - WASD + arrow keys?
+> ##### - WASD 
 > ##### - Basic movement
 > ##### - Jump & Doublejump
 > ##### - Wallclinging
@@ -222,10 +190,10 @@ Table of contents
 
 
 ## 5.3 Environments
-> ##### - Rakennukset (Rauniot, muurin palasia, kuluneita rakennuksia) 
-> ##### - Häkit 
-> ##### - Luonto-assetit (pensaat, puut, ruohikko, kukat, kiviä, kallioita yms.) 
-> ##### - Tekstuurit maa-alustalle (ruohikko, polku/tie)
+> ##### -  
+> ##### - 
+> ##### - 
+> ##### - 
 
 
 ## 5.4 Necessary Core - Assets
@@ -236,12 +204,11 @@ Table of contents
 
 
 ## 5.5 User interface 
-> ##### - Final product + concepts, buttons, background etc.
+> ##### - 
 
 ## 6. Technical   
-> ##### - Game Engine
-> ##### - ~~Database:~~
-> ##### - File management: Github & Discord 
+> ##### - Game Engine: Unity 6000.0.43f1
+> ##### - File management:  
 > ##### - Storage plan: 
 
 
@@ -288,19 +255,14 @@ Table of contents
 #### Technical specifications, formating, size (limitations), quality limitations
 > ##### -
 
-
-## 6.4 Accessibility
-> ##### - ~~Red-Green color blindness~~
-> ##### - Player controls (extra: player gets to choose the keybindings). 
-
-## 6.5 User Interface
+## 6.4 User Interface
 > ##### - Wire models of the UI
 
 > ##### - Steampunk styled menus
-> ##### - StartMenu, (a separate scene with buttons for starting the game, credits & settings)
-> ##### - PauseMenu, (an UI panel that opens when a button is pressed?)
-> ##### - SettingsMenu, (an UI panel that opens when a button is pressed?)
-> ##### - Credit page, (an UI panel that opens when a button is pressed?)
-> ##### - Levels, (one scene or multiple?)
-> ##### - DeathScreen, (separate scene or a UI panel?)
-> ##### - WinScreen, (separate scene or a UI panel?)
+> ##### - StartMenu
+> ##### - PauseMenu
+> ##### - SettingsMenu
+> ##### - Credit page
+> ##### - Levels
+> ##### - DeathScreen
+> ##### - WinScreen
