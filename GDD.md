@@ -192,9 +192,11 @@ Table of contents
 
 #### PlayerController 
 > ##### - Player movement
+> ##### - Jump, Wallcling, Dash, DoubleJump.
 
 #### EnemyController
 > ##### - Enemy movement
+> ##### - Jumping crab, horizontally moving turtle, flying medusa.
 > ##### - Damage to player
 
 ## 6.3 SFX 
