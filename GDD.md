@@ -44,7 +44,7 @@ Table of contents
 
 > ##### Action Platformer
 
-#### Art Style:
+#### Art Style: Painterly, cartoonish, steampunk, futuristic, detailed.
 
 > ##### Steampunk - 2D
 
@@ -55,7 +55,7 @@ Table of contents
 #### Concept Art:
 
 > ##### www.figma.com/design/H7EBimbynf7OWy2pCMuQ0Q/Ryhmä-5-FORESTPUNK
-> ##### Link to Figma containing concept art for the game.
+> ##### Link to Figma containing concept art for the game. 
 
 ## 2. Project Management
 > ##### Projektinhallinnassa käytetään Trelloa, GitHubia & Discordia. Kommunikaatiovälineenä toimii ryhmän oma Discord kanava.
@@ -70,29 +70,24 @@ Table of contents
 > ##### Sending free version of the game to streamers who play and test indie games.
 > ##### Teaser trailer of the game that can be uploaded to YouTube and other social media platforms.
 > ##### Launch in Twitter, Instagram, Tiktok, Discord, Reddit containing material of progress made during game development, comments and experiences of team members shared before, during and after the project.
-> ##### 
 
 ### 2.3 Scheduling
-> ##### - Main stages
-> ##### - Detailed tasks per subdivision
-> ##### - Game testing schedule
-> ##### - *e.g. Version builds ready by the next meeting, testing done by the following one.*
+> ##### Deadline for all of the code 15.04
+> ##### Project leader assembled all of the individual parts of team members in the build 28.04
+> ##### Deadline for the initial purku 29.04
+> ##### Added functionality to checkpoints in levels and fixed Health UI scaling. 28.05.2025
+> ##### Edited GDD to better represent the project, added technical information, (Which editor and tools were used), Link to Figma. 28.05.2025
 
 ### 2.4 Risks
-> ##### - Someone quits the team
-> ##### - Late from schedule
-> ##### - Schedule is unclear
-> ##### - PC breaks down
-> ##### - There is an error in version control and the latest backup is too old
-> ##### - Not enough competence for something
-> ##### - Scope too large
-> ##### - Team members getting sick or burned out 
-> ##### - Communication doesn't work
+> ##### - Only a few deadlines for everything instead of multiple deadlines for progression.
+> ##### - Not enough experience in game development.
+> ##### - Graphic designers had difficulties using GitHub.
+> ##### - Materials went missing and had to be redone and uploaded separately.
 
 ## Sprint
 
-> ##### Beta Deadline 15.04
-
+> ##### Deadline for all of the code, animation, sound and graphics. 15.04
+> ##### Assembling of the game 28.04
 > ##### Game Project Disassembly (purku) 29.04
 
 ## 3. Game Script
@@ -112,31 +107,26 @@ Table of contents
 #### Collectable items
 > ##### - Hearts
 
-## 4. Game Design (Gameplay)
-#### Game Mechanics
-> ##### - 
-
-#### Game Physics
-> ##### -
-
 ## 4.2 Progression
 
 #### The goal
-> ##### - Defeat enemies and the boss at the end of the game
-
+> ##### - Defeat enemies, collect hearts to restore health, reach win checkpoint to trigger winscreen.
 
 #### Obstacles
 > ##### - Three different types of enemies
+> ##### - Jumping crab, flying medusa that follows the player, turtle that moves horizontally.
 > ##### - Traps and obstacles that do damage
 
 
 #### What does the player do in the game?
-> ##### - 
+> ##### - Fight enemies, collect health items, reach checkpoints.
 
 ## 4.3 Core-loops
 
 #### Core-loop 1.
 > - Fight enemies, collect health items, die - repeat
+> - Fight enemies, collect health items, reach checkpoints, die - repeat
+> - Fight enemies, collect health items, reach win checkpoint, trigger win screen, quit or main menu - repeat
 
 ## 4.4 Player movement & Actions
 
@@ -147,23 +137,11 @@ Table of contents
 > ##### - Wallclinging
 > ##### - Dash
 
-
 #### What actions does the player have?
 > ##### - Melee attack
 > ##### - Shooting
 > ##### - Collecting health items
-
-## 4.5 Game Views
-
-### Menus
-
-> ##### - StartMenu
-> ##### - PauseMenu
-> ##### - SettingsMenu
-> ##### - Credit page
-> ##### - Levels
-> ##### - DeathScreen
-> ##### - WinScreen
+> ##### - Movement, (Jumping, Dashing, Doublejump & Wallcling)
 
 ## 4.6 Levels
 > ##### - Comic styled world inspired by old comics with steampunk elements.
@@ -173,16 +151,6 @@ Table of contents
 ## 4.7 Collectable items
 > ##### - Hearts
 
-## 5. Visuality & Usability
-> ##### - Moodboard x 
-> ##### - Storyboard 
-> ##### - Concept Art x 
-> ##### - User interface & Game Visuals
-> ##### - Game views
-> ##### - Different quality development stages
-> ##### - Final quality
-
-
 ## 5.2 Characters
 > ##### - Player-character (Desert rat)
 > ##### - Minions of the emperor
@@ -190,10 +158,9 @@ Table of contents
 
 
 ## 5.3 Environments
-> ##### -  
-> ##### - 
-> ##### - 
-> ##### - 
+> ##### - Forest Level
+> ##### - Steampunk Level
+> ##### - Boss Level
 
 
 ## 5.4 Necessary Core - Assets
@@ -202,15 +169,9 @@ Table of contents
 > ##### - Hearts
 > ##### - Backgrounds
 
-
-## 5.5 User interface 
-> ##### - 
-
 ## 6. Technical   
 > ##### - Game Engine: Unity 6000.0.43f1
-> ##### - File management:  
-> ##### - Storage plan: 
-
+> ##### - File management: Discord, Unity, local files on PC, GitHub repositories for game build and GDD.
 
 ## 6.2 Arkkitehtuuri 
 
@@ -219,26 +180,22 @@ Table of contents
 
 #### Player HealthSystem
 > ##### - Keeps track of player health
-
-#### Health Collectibles
-> ##### - Add into players health upon collection
+> ##### - Adds and reduces health 
 
 #### PlayerCombat
 
  #### Player Melee
-> ##### -
+> ##### - Left Mouse Button
 
 #### Player Shooting
-> ##### -
+> ##### - Right Mouse Button
 
 #### PlayerController 
 > ##### - Player movement
 
 #### EnemyController
-> ##### -
-
-#### BossController
-> ##### -
+> ##### - Enemy movement
+> ##### - Damage to player
 
 ## 6.3 SFX 
 
@@ -248,15 +205,12 @@ Table of contents
 #### Sound effects
 > ##### - Collecting
 > ##### - Walking
+> ##### - Jumping
 > ##### - Mouse click in menus
 > ##### - Player attacks
 > ##### - Enemy attacks
 
-#### Technical specifications, formating, size (limitations), quality limitations
-> ##### -
-
 ## 6.4 User Interface
-> ##### - Wire models of the UI
 
 > ##### - Steampunk styled menus
 > ##### - StartMenu
