@@ -81,8 +81,7 @@ Table of contents
 ### 2.4 Risks
 > ##### - Only a few deadlines for everything instead of multiple deadlines for progression.
 > ##### - Not enough experience in game development.
-> ##### - Graphic designers had difficulties using GitHub.
-> ##### - Materials went missing and had to be redone and uploaded separately.
+> ##### - Difficulties with GitHub, Materials went missing and had to be redone and uploaded separately
 
 ## Sprint
 
