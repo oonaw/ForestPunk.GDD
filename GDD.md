@@ -75,8 +75,7 @@ Table of contents
 > ##### Deadline for all of the code 15.04
 > ##### Project leader assembled all of the individual parts of team members in the build 28.04
 > ##### Deadline for the initial purku 29.04
-> ##### Added functionality to checkpoints in levels and fixed Health UI scaling. 28.05.2025
-> ##### Edited GDD to better represent the project, added technical information, (Which editor and tools were used), Link to Figma. 28.05.2025
+> ##### Edited GDD to better represent the project 28.05.2025
 
 ### 2.4 Risks
 > ##### - Only a few deadlines for everything instead of multiple deadlines for progression.
