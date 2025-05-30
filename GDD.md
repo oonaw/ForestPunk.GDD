@@ -213,6 +213,7 @@ Table of contents
 #### Licences
 > ##### https://www.fontspace.com/comic-shark-font-f51062
 > ##### This font is free for personal and commercial use.
+> ##### Used for the titles & buttons in game.
 
 ## 6.4 User Interface
 
