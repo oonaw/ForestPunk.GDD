@@ -210,6 +210,10 @@ Table of contents
 > ##### - Player attacks
 > ##### - Enemy attacks
 
+#### Licences
+> ##### https://www.fontspace.com/comic-shark-font-f51062
+> ##### This font is free for personal and commercial use.
+
 ## 6.4 User Interface
 
 > ##### - Steampunk styled menus
