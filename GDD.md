@@ -58,7 +58,7 @@ Table of contents
 > ##### Link to Figma containing concept art for the game. 
 
 ## 2. Project Management
-> ##### Projektinhallinnassa käytetään Trelloa, GitHubia & Discordia. Kommunikaatiovälineenä toimii ryhmän oma Discord kanava.
+> ##### Projektinhallinnassa käytettiin Trelloa, GitHubia & Discordia. Kommunikaatiovälineenä toimi ryhmän oma Discord kanava.
 
 ### 2.2 Monetization
 
