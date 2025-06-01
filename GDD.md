@@ -124,7 +124,8 @@ Table of contents
 #### Core-loop 1.
 > - Fight enemies, collect health items, die - repeat
 > - Fight enemies, collect health items, reach checkpoints, die - repeat
-> - Fight enemies, collect health items, reach win checkpoint, trigger win screen, quit or main menu - repeat
+> - Splash Screen - Main Menu - Play - Level1, reach the portal taking to next level - Level2, reach the portal taking to next level - BossLevel, reach the Win checkpoint - Trigger Win Screen
+
 
 ## 4.4 Player movement & Actions
 
