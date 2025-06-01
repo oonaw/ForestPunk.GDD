@@ -179,7 +179,8 @@ Table of contents
 
 #### Player HealthSystem
 > ##### - Keeps track of player health
-> ##### - Adds and reduces health 
+> ##### - Reduces health when damage is taken
+> ##### - Adds health when a health item is collected
 
 #### PlayerCombat
 
@@ -191,7 +192,10 @@ Table of contents
 
 #### PlayerController 
 > ##### - Player movement
-> ##### - Jump, Wallcling, Dash, DoubleJump.
+> ##### - Jump - Space-key
+> ##### - Wallcling - ?
+> ##### - Dash - Shift
+> ##### - Double jump - Space-key x2
 
 #### EnemyController
 > ##### - Enemy movement
@@ -207,7 +211,6 @@ Table of contents
 > ##### - Collecting
 > ##### - Walking
 > ##### - Jumping
-> ##### - Mouse click in menus
 > ##### - Player attacks
 > ##### - Enemy attacks
 
@@ -218,7 +221,6 @@ Table of contents
 
 ## 6.4 User Interface
 
-> ##### - Steampunk styled menus
 > ##### - StartMenu
 > ##### - PauseMenu
 > ##### - SettingsMenu
@@ -226,4 +228,4 @@ Table of contents
 > ##### - Levels
 > ##### - DeathScreen
 > ##### - WinScreen
-> ##### - DevMenu for displaying BossLevel
+> ##### - DevMenu
